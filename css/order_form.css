@@ -1,0 +1,161 @@
+#order_form_main{
+	width:960px;margin:0 auto;
+}
+#order_form_main .info h3{
+   height: 30px;line-height: 30px;background: #eee;border: 1px solid #ccc;font-size: 14px;color: #333;
+   font-weight: bold;padding-left: 10px;
+}
+#order_form_main .con_info{
+	border:1px solid #cccccc;
+}
+#order_form_main .con_info .shrxx{
+	padding: 18px 0 15px 25px;font-size: 14px;font-weight: bold;color: #333;
+}
+#order_form_main .con_info .address{
+	padding:5px 0 5px 30px;
+}
+#order_form_main .con_info .address .tips{
+	color: red;margin-left: 30px;
+}
+#order_form_main .con_info .address input{
+	outline: medium;
+}
+#order_form_main .con_info .address p{
+	padding:5px 0;
+}
+#order_form_main .con_info .address .save_addr{
+	display:block;width:80px;height:22px;background:#8e0c3a;text-align:center;line-height:22px;color:white;
+	margin-left:60px;
+}
+#order_form_main .con_info .address .save_addr:hover{
+	cursor: pointer;
+}
+#order_form_main .pay_way .pay_way_{
+	padding: 18px 0 15px 25px;font-size: 14px;font-weight: bold;color: #333;
+}
+#order_form_main .pay{
+	padding:5px 0 5px 30px;
+}
+#order_form_main .pay_way label{
+	
+}
+#order_form_main .pay_way input{
+	width:13px;height:13px;vertical-align: text-bottom;
+}
+#order_form_main .pay label span{
+	margin-left:30px;
+}
+#order_form_main .pay:hover{
+	background:#CCCCCC;
+}
+#order_form_main .self_get span{
+	display:none;
+}
+#order_form_main .pay_way{
+	border:1px solid #cccccc;border-top:0;
+}
+#order_form_main .dis_time p{
+	padding: 18px 0 15px 25px;font-size: 14px;font-weight: bold;color: #333;
+}
+#order_form_main .dis_time label{
+	padding:5px 0 5px 30px;display:block;line-height:18px;
+}
+#order_form_main .dis_time label input{
+	vertical-align: text-bottom;
+}
+#order_form_main .dis_time span{
+	margin-left:50px;color:#cccccc;
+}
+#order_form_main .dis_time p.pay_style{
+	font-weight:normal;
+}
+#order_form_main .dis_time label:hover{
+	background:#CCCCCC;
+}
+#order_form_main .dis_time{
+	border:1px solid #cccccc;border-top:0;
+}
+/*包装方式*/
+#order_form_main .pack_way{
+	border:1px solid #cccccc;border-top:0;
+}
+#order_form_main .pack_way .pack_way_title{
+	padding: 18px 0 15px 25px;font-size: 14px;font-weight: bold;color: #333;
+}
+#order_form_main .pack_way ul{
+	list-style-type: none;
+}
+#order_form_main .pack_way .pack_styles{
+	margin-left:30px;
+}
+#order_form_main .pack_way .pack_style{
+	padding:10px 0;
+}
+#order_form_main .pack_way .pack_style:hover{
+	background:#f5f5f5;
+}
+#order_form_main .pack_way input{
+	vertical-align: text-bottom;
+}
+#order_form_main .pack_way .consultant{
+	width:878px;margin: 0 auto;border-top:1px solid #cccccc;margin-top:20px;
+}
+#order_form_main .pack_way .consultant p{
+	padding:10px 0;
+}
+#order_form_main .pack_way .consultant textarea{
+	width: 730px;height: 40px;border: 1px solid #ccc;padding: 3px;overflow: hidden;
+}
+#order_form_main .pack_way .consultant .spe_req span{
+	float: left;
+}
+/*商品清单*/
+#order_form_main .goods_list .goods_list_title{
+	padding: 18px 0 15px 25px;font-size: 14px;font-weight: bold;color: #333;
+}
+#order_form_main .goods_list table{
+	border-collapse: collapse;border-spacing:none;text-align: center;
+	margin:0 auto;
+}
+#order_form_main .goods_list tr{
+	border-bottom: 1px solid #cccccc;
+}
+#order_form_main .goods_list th{
+	height:40px;line-height: 40px;text-align: center;background:#eeeeee;
+}
+#order_form_main .goods_list .good_img{
+	padding:5px 40px;
+}
+#order_form_main .goods_list .good_img img{
+	width:50px;height:60px;
+}
+#order_form_main .goods_list .good_name{
+	padding:0 40px;
+}
+#order_form_main .goods_list .num{
+	padding:0 40px;
+}
+#order_form_main .goods_list .price,#order_form_main .goods_list .subtotal{
+	padding:0 40px;
+}
+#order_form_main .goods_list .sum{
+	width:767px;margin:0 auto;text-align:right;overflow:hidden;
+}
+#order_form_main .goods_list .sum p.disc_num{
+	float: left;
+}
+#order_form_main .goods_list .disc_num span{
+	margin-left: 0;
+}
+#order_form_main .goods_list .sum span{
+	margin-left:30px;display: inline-block;width:100px
+}
+#order_form_main .goods_list .footing span{
+	color:red;font-size:16px;font-weight: bold;
+}
+#order_form_main .goods_list .sub_order{
+	padding:10px 0;
+}
+#order_form_main .goods_list .sub_order button{
+	width: 158px;height: 48px;border: none;cursor: pointer;background: url(../img/order_form/sub.png);
+}

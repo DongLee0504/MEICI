@@ -1,0 +1,19 @@
+#succeed{
+	width:960px;height:293px;margin:0 auto;
+}
+#succeed .img_title,#succeed .reset_process{
+	display: block;
+}
+#succeed .img_title{
+	margin-top:20px;
+}
+#succeed .reset_process{
+	margin: 0 auto;margin-top:25px;
+}
+#succeed .tips{
+	width:500px;margin:0 auto;margin-top:20px;text-align: center;
+}
+#succeed .login{
+	width:126px;height:36px;background:#5c5c5c;color:white;font-size:16px;margin:0 auto;display:block;
+	margin-top:20px;
+}

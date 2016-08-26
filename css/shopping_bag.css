@@ -1,0 +1,68 @@
+#bag_main{
+	width:960px;height:430px;margin:0 auto;
+}
+#bag_main .order_tips{
+	padding:10px 0 10px 50px;border:1px solid #8cbe7c;position:relative;
+}
+#bag_main .order_tips em{
+	position:absolute;left: 27px;top:50%;margin-top:-8px;width:16px;height:16px;background:url(../img/shopping_bag/tipico01.png)0 -40px no-repeat;
+}
+#bag_main .bag_table{
+	border-spacing: 0;border-collapse: collapse;text-align: center;margin:0 auto;
+}
+#bag_main .bag_table td{
+	border-bottom: 1px solid #eee;padding:15px 0;
+}
+#bag_main .bag_table th{
+	height:40px;line-height: 40px;background:#eee
+}
+#bag_main .bag_table .checkbox{
+	width:120px;
+}
+#bag_main .bag_table .good_img{
+	width:120px
+}
+#bag_main .bag_table .good_img img{
+	width:50px;height:60px;
+}
+#bag_main .bag_table .good_name{
+	padding-left:15px;width:315px
+}
+#bag_main .bag_table .good_num{
+	padding:0 25px;
+}
+#bag_main .bag_table .good_num span{
+	display:block;float:left;background:#CCCCCC;width:15px;height:15px;line-height:15px;
+}
+#bag_main .bag_table .good_num input{
+	width:20px;height:11px;float:left;text-align:center;
+}
+#bag_main .bag_table .price{
+	padding: 0 30px;
+}
+#bag_main .bag_table .subtotal{
+	width:96px
+}
+#bag_main .operation .delete{
+	padding:0 30px;
+}
+#bag_main .bag_price{
+	padding:10px 0;text-align:right;
+}
+#bag_main .bag_price p{
+	margin-right:20px;
+}
+#bag_main .bag_price p span{
+	margin-left:20px;color:red;font-size:16px;font-weight:bolder;display:inline-block;
+	width:100px;background:#7A7A7A;text-align:center;height:25px;line-height: 25px;
+}
+#bag_main .bag_pay{
+	/*padding:10px 0;*/overflow:hidden;
+}
+#bag_main .bag_pay a:hover{
+	color:red;
+}
+#bag_main .bag_pay .bag_pay_btn{
+	width: 158px;height: 48px;border: none;cursor: pointer;float:right;display: inline;
+	background: url(../img/shopping_bag/cartbtn.gif)no-repeat;
+}

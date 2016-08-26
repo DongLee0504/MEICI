@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>填写信息</title>
+		<link type="text/css" rel="stylesheet" href="/MEICI/css/common_02.css" />
+		<link rel="shortcut icon" href="http://www.meici.com/favicon.ico" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" href="/MEICI/css/order_form.css" />
+	</head>
+	<body>
+		<!--公共头部-->
+		<header></header>
+		<!--主体-->
+		<div id="order_form_main">
+			<img src="../img/order_form/process02.gif">
+			<div class="info">
+				<h3>填写并核对订单信息</h3>
+				<div class="con_info">
+					<p class="shrxx">
+						<a>收货人信息</a>
+					</p>
+					<div class="address">
+						<p class="con_name" ><span class="required">*</span>收 货 人:<input type="text" ><span class="tips"></span></p>
+						<p class="con_region"><span class="required">*</span>地 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;区:
+							<select class="prov">
+								
+							</select>
+							<select class="city">
+								
+							</select>
+							<select class="dist">
+								
+							</select>
+						</p>
+						<p class="con_addr"><span class="required">*</span>收货地址:<input type="text"><span class="tips"></span></p>
+						<p class="tel"><span class="required">*</span>手机号码:<input type="text"><span class="tips"></span></p>
+						<p class="fixed-tel">&nbsp;&nbsp;固定电话:<input type="text"></p>
+						<a class="save_addr" href="javascript:void(0)">保存地址</a>
+						<p><label><input type="checkbox">此订单作为礼品送给他人(?)</label></p>
+					</div>
+				</div>
+				<div class="pay_way">
+					<p class="pay_way_">
+						<a>支付方式</a>
+					</p>
+					
+						<p class="online_pay pay">
+							<label>
+								<input type="radio" name="payway" checked="checked" />在线支付
+								<span>
+									支持多家银行借记卡、信用卡支付。支付宝支付，微信等多种支付平台；支持美西礼品卡支付。
+								</span>
+							</label>
+						</p>
+						<p class="quick_pay pay">
+							<label>
+								<input type="radio" name="payway"/>快捷支付
+								<span>
+									不需开通网银，即可完成支付。
+								</span>
+								<a href="#" target="_blank">查看支持银行卡</a>
+							</label>
+						</p>
+						<p class="Int_bank pay">
+							<label>
+								<input type="radio" name="payway" />银行汇款
+							</label>
+						</p>
+						<p class="self_get pay">
+							<label>
+								<input type="radio" name="payway"/>店内自取
+							</label><br>
+							<span>
+								自取地址：上海市闸北区灵石路695号2号楼B座101室<a href="#">【详细地址】</a>
+							</span>
+						</p>
+					
+				</div>
+				<div class="dis_time">
+					<p>
+						<a>配送时间</a>
+					</p>
+					<label class="alltime"><input type="radio" name="dis_time" checked="checked">所有日期均可收货</label>
+					<label class="worktime"><input type="radio" name="dis_time">仅工作日收货</label>
+					<label class="holtime"><input type="radio" name="dis_time">双休日、节假日收货</label>
+					<span class="tips">温馨提示：我们会努力按照您指定的时间配送，但因天气、交通等各类因素影响，您的订单有可能会有延误现象。</span>
+					<p class="pay_style">配送方式:快递公司</p>
+				</div>
+				<div class="pack_way">
+					<p class="pack_way_title">
+					   <a>包装方式</a>
+					</p>
+					<ul class="pack_styles">
+						<li class="pack_style">
+							<label><input checked="checked"  type="radio" name="packway" />美西标准包装（免费，环保普通包装内放置我们白色美西盒子，更加坚固的保护您的货品）</label>
+							<ul class="pack_img">
+								<li><img src="../img/order_form/pic_pack01.jpg"></li>
+							</ul>
+						</li>
+						<li class="pack_style">
+							<label><input type="radio" name="packway" />环保普通包装（免费，如果您有太多的美西盒子，可以选择更环保的普通包装）</label>
+							<ul class="pack_img">
+								<li><img src="../img/order_form/pic_pack02.jpg"></li>
+							</ul>
+						</li>
+						<li class="pack_style">
+							<label><input type="radio" name="packway" />美西礼品包装（10元，高档的礼品包装，让您的礼物更出众）</label>
+							<ul class="pack_img">
+								<li><img src="../img/order_form/pic_pack03.jpg"></li>
+							</ul>
+						</li>
+					</ul>
+					<div class="consultant">
+						<p><span>购物顾问:</span><select></select></p>
+						<p class="spe_req"><span>特殊要求:</span><textarea></textarea></p>
+					</div>
+				</div>
+				<div class="goods_list">
+					<p class="goods_list_title">
+						<a>商品清单</a>
+					</p>
+					<table>
+						<thead>
+							<tr>
+								<th>商品图片</th>
+								<th>商品名称</th>
+								<th>数量</th>
+								<th>单价</th>
+								<th>小计</th>
+							</tr>
+						</thead>
+						
+					</table>
+					<div class="sum">
+						<p class="disc_num"><span>优惠券代码</span><input type="text"  /></p>
+						<p class="total">合计:<span>￥0.00</span></p>
+						<p class="postage">邮费:<span>￥0.00</span></p>
+						<p class="pack_cost">包装:<span>￥0.00</span></p>
+						<p class="disc_cost">优惠券:<span>￥0.00</span></p>
+						<p class="footing">总计:<span>￥0.00</span></p>
+						<p class="sub_order"><button></button></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!--公共底部-->
+		<footer></footer>
+	</body>
+	<script type="text/javascript" src="/MEICI/js/jquery.js"></script>
+	<script src="/MEICI/js/jquery-2.2.4.min.js"></script>
+	<!--<script src="/MEICI/js/index.js"></script>-->
+	<script type="text/javascript" src="/MEICI/js/jquery.cityselect.js"></script>
+	<script src="/MEICI/js/order_form.js"></script>
+</html>

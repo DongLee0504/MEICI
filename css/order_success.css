@@ -1,0 +1,98 @@
+#main{
+	width:960px;margin:0 auto;
+}
+#main .order_success{
+	position:relative;border: 1px solid #dda1b6;margin-top:10px;
+}
+#main .success_info,#main .order_info_txt{
+	overflow:hidden;padding:10px 0 10px 30px;
+}
+#main .order_info_success{
+	background:url(../img/order_success/order_s.png) no-repeat;width:40px;height:40px;
+	display: block;float: left;
+}
+#main .order_info_tit{
+	margin-left: 10px;float: left;height:40px;line-height:40px;font-size:22px;font-weight: bold;
+}
+#main .order_info_txt p{
+	padding:5px 0 5px 0;
+}
+#main .order_info_txt span{
+	color: red;
+}
+
+#main .order_pay{
+	border: 1px solid #ccc;margin-top:10px;overflow: hidden;
+}
+#main .order_pay input{
+	vertical-align: text-bottom;
+}
+#main .order_pay p{
+	float:left;margin-left:30px;padding:20px 0;
+}
+#main .order_pay p span{
+	margin-left: 30px;
+}
+#main .order_pay .full_payment span{
+	color: red;
+}
+/*支付*/
+#main .orderPay{
+	border:1px solid #ccc;margin-top:10px;
+}
+#main .orderPay .payway{
+	overflow: hidden;width:845px;margin:0 auto;border-bottom: 1px solid #cccccc;padding:20px 0 0 0;
+}
+#main .orderPay .payway .E-blank{
+	float: left;padding:5px;
+}
+#main .orderPay .payway .q_pay{
+	float: right;padding:5px;
+}
+#main .blanks{
+	width:840px;margin:0 auto;overflow: hidden;
+}
+#main .blanks ul{
+	margin:0 auto ;overflow: hidden;
+}
+#main .blanks li{
+	float: left;list-style: none;margin:5px 0;margin-left:10px;border:1px solid #CCCCCC;
+	cursor: pointer;position:relative;
+}
+#main .blanks li .checked{
+	position: absolute;width: 20px;height: 20px;background: url(../img/order_success/shrCur01.png) no-repeat;
+	bottom:0;right:0;display:none;
+}
+#main .blanks li img{
+	padding:2px;
+}
+#main .platform{
+	overflow: hidden;width:845px;margin:0 auto;border-bottom: 1px solid #cccccc;
+}
+#main .platform p{
+	padding: 5px;
+}
+#main .platforms{
+	width:840px;margin:0 auto;
+}
+#main .platforms ul{
+	overflow: hidden;
+}
+#main .platforms li{
+	float: left;list-style: none;margin:5px 0;margin-left:10px;border:1px solid #CCCCCC;
+	cursor: pointer;position:relative;
+}
+#main .platforms li .checked{
+	position: absolute;width: 20px;height: 20px;background: url(../img/order_success/shrCur01.png) no-repeat;
+	bottom:0;right:0;display:none;
+}
+#main .platforms li img{
+	padding:2px;
+}
+#main .platforms .pay_btn{
+	width: 158px;height: 48px;border: none;cursor: pointer;background:url(../img/order_success/paybtn.jpg);
+	margin-top:20px;
+}
+#main .platforms p{
+	padding:10px;
+}

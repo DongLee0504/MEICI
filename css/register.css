@@ -1,0 +1,35 @@
+/*登录主体*/
+#main{
+	width:960px;height:540px;margin:0 auto;background: url(/MEICI/img/register/bg_main.jpg) no-repeat;
+	overflow: hidden;
+}
+#main .welcome_img{
+	margin-left: 68px;margin-top:27px;position:relative;
+}
+#main .welcome_img p{
+	position:absolute;left:143px;color:red;font-size:17px;bottom:-10px;
+}
+#main .register{
+	width:277px;height:238px;margin-left:105px;margin-top:38px;position:relative;
+}
+#main .register p{
+	width:277px;text-align: right;position:relative;margin-bottom:10px;height:25px;
+}
+#main .register p input{
+	border:1px solid #999999;
+}
+#main .register p .checkbox{
+	position:absolute;left:105px;width:18px;height:18px;
+}
+#main .register p .checkbox_txt{
+	position: absolute;right:55px;
+}
+#main .register .register_in{
+	width:173px;background:#8e0c3a;color:white;border: none;height:25px;
+}
+#main .register .login span a{
+	color: red;
+}
+#main .register .tips{
+	text-align:center;color:red;
+}
